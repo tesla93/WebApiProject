@@ -1,0 +1,6 @@
+@AgolWebApi_HostAddress = http://localhost:5198
+
+GET {{AgolWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
