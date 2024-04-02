@@ -3,45 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgolWebApi", "AgolWebApi\AgolWebApi.csproj", "{58B4C778-105F-45E2-92BB-292917189A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgolWebApi", "AgolWebApi\AgolWebApi.csproj", "{58B4C778-105F-45E2-92BB-292917189A75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Data", "Project.Data\Project.Data.csproj", "{4B79044A-09EA-4236-BAFD-E06746615189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Data", "Project.Data\Project.Data.csproj", "{4B79044A-09EA-4236-BAFD-E06746615189}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{689BF718-FDE2-4F57-A3B0-6760921EE996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9B7C1BF6-CABE-4AB1-8B43-0BE01A13BBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9B7C1BF6-CABE-4AB1-8B43-0BE01A13BBA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacExtensions", "AutofacExtensions\AutofacExtensions.csproj", "{0447F689-4FA2-45EC-9A94-5277EF34B847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacExtensions", "AutofacExtensions\AutofacExtensions.csproj", "{0447F689-4FA2-45EC-9A94-5277EF34B847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleLinkage", "ModuleLinkage\ModuleLinkage.csproj", "{B0E74A19-A67E-408E-8E0B-02C5F93E7714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuleLinkage", "ModuleLinkage\ModuleLinkage.csproj", "{B0E74A19-A67E-408E-8E0B-02C5F93E7714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportProblem", "ReportProblem\ReportProblem.csproj", "{80F74668-0855-4ACA-BF39-ACDEFED4BF80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportProblem", "ReportProblem\ReportProblem.csproj", "{80F74668-0855-4ACA-BF39-ACDEFED4BF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "Messages\Messages.csproj", "{A19E44FC-98D6-4C97-AEBB-B56F0333BD5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages", "Messages\Messages.csproj", "{A19E44FC-98D6-4C97-AEBB-B56F0333BD5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemData", "SystemData\SystemData.csproj", "{53203140-D62D-4E11-AF51-BCC357389380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemData", "SystemData\SystemData.csproj", "{53203140-D62D-4E11-AF51-BCC357389380}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Crud", "Core.Crud\Core.Crud.csproj", "{BA51FEC1-E0AF-4642-8A1B-5A65A327E662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Crud", "Core.Crud\Core.Crud.csproj", "{BA51FEC1-E0AF-4642-8A1B-5A65A327E662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStorage", "FileStorage\FileStorage.csproj", "{66529B8B-8753-47A4-96DC-E5D85802530F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStorage", "FileStorage\FileStorage.csproj", "{66529B8B-8753-47A4-96DC-E5D85802530F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.Api", "Messages.Api\Messages.Api.csproj", "{226C40AC-B921-466B-A9B3-3C9C7547BF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages.Api", "Messages.Api\Messages.Api.csproj", "{226C40AC-B921-466B-A9B3-3C9C7547BF5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Membership", "Core.Membership\Core.Membership.csproj", "{12B004F7-398E-4E55-A7BC-9A4B9ADD74B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Membership", "Core.Membership\Core.Membership.csproj", "{12B004F7-398E-4E55-A7BC-9A4B9ADD74B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.SystemSettings", "SystemSettings\Project.SystemSettings.csproj", "{34E0CDEE-8348-4533-8E9E-7816C42A652E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.SystemSettings", "SystemSettings\Project.SystemSettings.csproj", "{34E0CDEE-8348-4533-8E9E-7816C42A652E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConfiguration", "AppConfiguration\AppConfiguration.csproj", "{569ECC1E-F4B1-4F47-8DFB-6809D668046B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConfiguration", "AppConfiguration\AppConfiguration.csproj", "{569ECC1E-F4B1-4F47-8DFB-6809D668046B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages.Template", "Messages.Template\Messages.Template.csproj", "{E94AB136-5DC8-4C02-A108-CDCB5096297D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages.Template", "Messages.Template\Messages.Template.csproj", "{E94AB136-5DC8-4C02-A108-CDCB5096297D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWT", "JWT\JWT.csproj", "{A8297222-4DAB-46DD-BA9E-E92EF6ACA8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT", "JWT\JWT.csproj", "{A8297222-4DAB-46DD-BA9E-E92EF6ACA8D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Processing", "Data.Processing\Data.Processing.csproj", "{E66CF8BC-6910-4DB7-823C-B7D80A45B3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Processing", "Data.Processing\Data.Processing.csproj", "{E66CF8BC-6910-4DB7-823C-B7D80A45B3B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundProcessing", "BackgroundProcessing\BackgroundProcessing.csproj", "{C2E904D8-955E-4B34-91E4-3BEA82DA9858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundProcessing", "BackgroundProcessing\BackgroundProcessing.csproj", "{C2E904D8-955E-4B34-91E4-3BEA82DA9858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Services", "Project.Services\Project.Services.csproj", "{99399994-A62B-486A-BF03-4ABDAD81CBA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Audit", "Core.Audit\Core.Audit.csproj", "{62133149-9AE6-435B-868F-C399EE587B5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +125,14 @@ Global
 		{C2E904D8-955E-4B34-91E4-3BEA82DA9858}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E904D8-955E-4B34-91E4-3BEA82DA9858}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E904D8-955E-4B34-91E4-3BEA82DA9858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99399994-A62B-486A-BF03-4ABDAD81CBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99399994-A62B-486A-BF03-4ABDAD81CBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99399994-A62B-486A-BF03-4ABDAD81CBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99399994-A62B-486A-BF03-4ABDAD81CBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62133149-9AE6-435B-868F-C399EE587B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62133149-9AE6-435B-868F-C399EE587B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62133149-9AE6-435B-868F-C399EE587B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62133149-9AE6-435B-868F-C399EE587B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +156,8 @@ Global
 		{A8297222-4DAB-46DD-BA9E-E92EF6ACA8D8} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
 		{E66CF8BC-6910-4DB7-823C-B7D80A45B3B9} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
 		{C2E904D8-955E-4B34-91E4-3BEA82DA9858} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
+		{99399994-A62B-486A-BF03-4ABDAD81CBA0} = {F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}
+		{62133149-9AE6-435B-868F-C399EE587B5E} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {958F2600-D234-4F33-BED4-FDE90F013F0D}

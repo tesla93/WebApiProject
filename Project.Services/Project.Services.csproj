@@ -7,17 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Const\" />
-    <Folder Include="Enum\" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="RtfPipe" Version="2.0.7677.4303" />
+    <PackageReference Include="Serilog" Version="3.1.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Core.Audit\Core.Audit.csproj" />
     <ProjectReference Include="..\Core.Membership\Core.Membership.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
-    <ProjectReference Include="..\Messages.Template\Messages.Template.csproj" />
-    <ProjectReference Include="..\SystemSettings\Project.SystemSettings.csproj" />
+    <ProjectReference Include="..\Data.Processing\Data.Processing.csproj" />
+    <ProjectReference Include="..\Project.Data\Project.Data.csproj" />
   </ItemGroup>
 
 </Project>

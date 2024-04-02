@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Project.Data.DTO;
 
-namespace BBWT.Server.Api
+namespace Server.Api
 {
     [Produces("application/json")]
     [Route("api/order")]
