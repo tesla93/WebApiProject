@@ -1,7 +1,7 @@
 using System.IO;
 using System.Linq;
 
-namespace BBWM.Core.Web
+namespace Core.Web
 {
     public class Route
     {

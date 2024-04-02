@@ -1,6 +1,6 @@
 using AutoMapper;
-using BBWM.Core.Filters;
-using BBWM.Core.ModelHashing;
+using Core.Filters;
+using Core.ModelHashing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
@@ -12,7 +12,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace BBWM.Core.Web.ModelBinders
+namespace Core.Web.ModelBinders
 {
     public class IdBinder : IModelBinder
     {

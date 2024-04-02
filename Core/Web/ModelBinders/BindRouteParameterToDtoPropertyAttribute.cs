@@ -1,6 +1,6 @@
 using System;
 
-namespace BBWM.Core.Web.ModelBinders
+namespace Core.Web.ModelBinders
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public class BindRouteParameterToDtoPropertyAttribute : Attribute

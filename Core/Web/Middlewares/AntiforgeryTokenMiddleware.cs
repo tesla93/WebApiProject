@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Antiforgery;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 
-namespace BBWM.Core.Web.Middlewares
+namespace Core.Web.Middlewares
 {
     public class AntiforgeryTokenMiddleware
     {

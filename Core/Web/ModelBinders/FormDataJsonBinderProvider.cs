@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using System;
 using System.Linq;
 
-namespace BBWM.Core.Web.ModelBinders
+namespace Core.Web.ModelBinders
 {
     public class FormDataJsonBinderProvider : IModelBinderProvider
     {

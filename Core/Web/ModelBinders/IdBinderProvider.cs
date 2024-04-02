@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using System;
 using System.Linq;
 
-namespace BBWM.Core.Web.ModelBinders
+namespace Core.Web.ModelBinders
 {
     public class IdBinderProvider : IModelBinderProvider
     {

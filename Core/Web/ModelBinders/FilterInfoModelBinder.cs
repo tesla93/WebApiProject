@@ -4,9 +4,9 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using BBWM.Core.Filters;
+using Core.Filters;
 
-namespace BBWM.Core.Web.ModelBinders
+namespace Core.Web.ModelBinders
 {
     public class FilterInfoModelBinder : IModelBinder
     {

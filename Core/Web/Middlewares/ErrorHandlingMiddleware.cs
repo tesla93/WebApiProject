@@ -1,5 +1,5 @@
-using BBWM.Core.Exceptions;
-using BBWM.ReportProblem;
+using Core.Exceptions;
+using ReportProblem;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +13,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace BBWM.Core.Web.Middlewares
+namespace Core.Web.Middlewares
 {
     public class ErrorHandlingMiddleware
     {

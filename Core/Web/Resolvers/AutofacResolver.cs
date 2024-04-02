@@ -4,7 +4,7 @@ using Autofac.Core;
 using Autofac.Core.Activators.Reflection;
 using Newtonsoft.Json.Serialization;
 
-namespace BBWM.Core.Web.Resolvers
+namespace Core.Web.Resolvers
 {
     public class AutofacResolver : CamelCasePropertyNamesContractResolver
     {

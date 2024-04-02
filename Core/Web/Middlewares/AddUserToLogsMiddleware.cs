@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Serilog.Context;
 
-namespace BBWM.Core.Web.Middlewares
+namespace Core.Web.Middlewares
 {
     public class AddUsernameToLogsMiddleware
     {

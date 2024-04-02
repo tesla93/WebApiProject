@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 
-namespace BBWM.Core.Web.Middlewares
+namespace Core.Web.Middlewares
 {
     public static class MiddlewareExtensions
     {

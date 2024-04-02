@@ -37,7 +37,7 @@ namespace Core.Web
             return Ok(await action());
         }
 
-        protected CreatedResult Created<TEntityDTO, TKey>(TEntityDTO result, IModelHashingService modelHashingService) where TEntityDTO: IDTO<TKey> where TKey: IEquatable<TKey> 
+        protected CreatedResult Created<TEntityDTO, TKey>(TEntityDTO result, IModelHashingService modelHashingService) where TEntityDTO : IDTO<TKey> where TKey : IEquatable<TKey>
         {
             var idStringValue = Convert.ToString(result.Id);
             var hashedId = modelHashingService.HashProperty(result, nameof(IDTO<TKey>.Id));

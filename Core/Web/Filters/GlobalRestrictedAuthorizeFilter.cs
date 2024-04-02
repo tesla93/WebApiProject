@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace BBWM.Core.Web.Filters
+namespace Core.Web.Filters
 {
     /// <summary>
     /// Overrides standard <see cref="AuthorizeFilter"/> to provide the ability to avoid filter execution when specified attributes was set for end point.

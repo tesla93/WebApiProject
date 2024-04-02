@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Configuration;
 
-namespace BBWM.Core.Web.Extensions
+namespace Core.Web.Extensions
 {
     public static class ConfigurationBuilderExtensions
     {

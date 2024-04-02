@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Reflection;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using BBWM.Core.Filters;
+using Core.Filters;
 
-namespace BBWM.Core.Web.ModelBinders
+namespace Core.Web.ModelBinders
 {
     public class FilterInfoModelBinderProvider : IModelBinderProvider
     {

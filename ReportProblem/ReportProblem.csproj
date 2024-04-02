@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutofacExtensions\AutofacExtensions.csproj" />
+    <ProjectReference Include="..\Messages\Messages.csproj" />
+    <ProjectReference Include="..\ModuleLinkage\ModuleLinkage.csproj" />
+    <ProjectReference Include="..\SystemData\SystemData.csproj" />
+  </ItemGroup>
+
+</Project>

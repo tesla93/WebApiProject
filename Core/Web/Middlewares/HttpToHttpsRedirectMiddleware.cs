@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http.Extensions;
 
-namespace BBWM.Core.Web.Middlewares
+namespace Core.Web.Middlewares
 {
     public class HttpToHttpsRedirectMiddleware
     {
