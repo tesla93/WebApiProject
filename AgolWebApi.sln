@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Services", "Project
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Audit", "Core.Audit\Core.Audit.csproj", "{62133149-9AE6-435B-868F-C399EE587B5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Data.SqlServer", "Project.Data.SqlServer\Project.Data.SqlServer.csproj", "{AB538BE9-2387-43CB-A993-F41F1B9D1F98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -133,6 +135,10 @@ Global
 		{62133149-9AE6-435B-868F-C399EE587B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62133149-9AE6-435B-868F-C399EE587B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62133149-9AE6-435B-868F-C399EE587B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB538BE9-2387-43CB-A993-F41F1B9D1F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB538BE9-2387-43CB-A993-F41F1B9D1F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB538BE9-2387-43CB-A993-F41F1B9D1F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB538BE9-2387-43CB-A993-F41F1B9D1F98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +164,7 @@ Global
 		{C2E904D8-955E-4B34-91E4-3BEA82DA9858} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
 		{99399994-A62B-486A-BF03-4ABDAD81CBA0} = {F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}
 		{62133149-9AE6-435B-868F-C399EE587B5E} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
+		{AB538BE9-2387-43CB-A993-F41F1B9D1F98} = {F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {958F2600-D234-4F33-BED4-FDE90F013F0D}
