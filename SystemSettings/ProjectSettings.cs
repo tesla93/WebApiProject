@@ -1,7 +1,7 @@
 using FileStorage;
 using Newtonsoft.Json;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public class ProjectSettings
     {

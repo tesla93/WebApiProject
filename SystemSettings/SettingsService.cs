@@ -11,7 +11,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public class SettingsService : ISettingsService
     {

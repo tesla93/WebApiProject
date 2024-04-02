@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using Core.Membership.Model;
 using Core.Membership.SystemSettings;
-using Project.SystemSettings;
+using Module.SystemSettings;
 
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +13,7 @@ namespace Core.Membership.TokenProviders
 {
     public class EmailConfirmationTokenProvider : DataProtectorTokenProvider<User>
     {
-        public const string ProviderName = "BBWT3 - Email Confirmation Token Provider";
+        public const string ProviderName = "Project - Email Confirmation Token Provider";
         private readonly ISettingsService _settingsService;
 
         public EmailConfirmationTokenProvider(

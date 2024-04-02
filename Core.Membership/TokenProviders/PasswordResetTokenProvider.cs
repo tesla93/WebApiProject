@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Core.Membership.Model;
 using Core.Membership.Services;
 using Core.Membership.SystemSettings;
-using Project.SystemSettings;
+using Module.SystemSettings;
 
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;

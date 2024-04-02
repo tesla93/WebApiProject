@@ -2,13 +2,14 @@ using Core.Audit;
 using Core.Membership;
 using Core.Membership.Model;
 using Core.Services;
-using Data.Model;
+using Project.Data.Model;
 using FileStorage;
 using LockIP;
 using Messages.Templates;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Project.SystemSettings;
+using Module.SystemSettings;
+using Project.Data;
 
 namespace Data
 {
@@ -47,6 +48,10 @@ namespace Data
         public DbSet<LockedOutIp> LockedOutIp { get; set; }
         public DbSet<FileDetails> FilesDetails { get; set; }
         public DbSet<AppSettings> AppSettings { get; set; }
+
+        #region Principal
+        public DbSet<Site> Site { get; set; }
+        #endregion
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

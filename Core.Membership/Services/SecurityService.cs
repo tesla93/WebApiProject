@@ -1,7 +1,7 @@
 using Core.Data;
 using Core.Membership.Model;
 using Core.Membership.SystemSettings;
-using Project.SystemSettings;
+using Module.SystemSettings;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;

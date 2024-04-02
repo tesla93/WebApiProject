@@ -28,19 +28,19 @@ namespace Core.Audit
             return services;
         }
 
-        public static IServiceCollection AddAuditMySQLDataContext(this IServiceCollection services,
-            DatabaseConnectionSettings connectionSettings, string connectionString)
-        {
-            services.AddDbContext<AuditDataContext>(options =>
-                options.UseMySql(connectionString, builder => builder
-                        .EnableRetryOnFailure(connectionSettings)
-                        .CharSetBehavior(Pomelo.EntityFrameworkCore.MySql.Infrastructure.CharSetBehavior.NeverAppend)
-                    ));
+        //public static IServiceCollection AddAuditMySQLDataContext(this IServiceCollection services,
+        //    DatabaseConnectionSettings connectionSettings, string connectionString)
+        //{
+        //    services.AddDbContext<AuditDataContext>(options =>
+        //        options.UseMySql(connectionString, builder => builder
+        //                .EnableRetryOnFailure(connectionSettings)
+        //                .CharSetBehavior(Pomelo.EntityFrameworkCore.MySql.Infrastructure.CharSetBehavior.NeverAppend)
+        //            ));
 
-            services.AddScoped(typeof(IAuditDataContext), typeof(AuditDataContext));
-            services.AddScoped(typeof(IAuditWrapper), typeof(AuditWrapper));
+        //    services.AddScoped(typeof(IAuditDataContext), typeof(AuditDataContext));
+        //    services.AddScoped(typeof(IAuditWrapper), typeof(AuditWrapper));
 
-            return services;
-        }
+        //    return services;
+        //}
     }
 }

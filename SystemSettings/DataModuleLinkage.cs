@@ -2,7 +2,7 @@ using ModuleLinkage;
 using Microsoft.Extensions.DependencyInjection;
 using System.Threading.Tasks;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public class DataModuleLinkage: IDataModuleLinkage
     {

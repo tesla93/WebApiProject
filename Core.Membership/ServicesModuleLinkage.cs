@@ -81,10 +81,10 @@ namespace Core.Membership
             // Audit login
             builder.RegisterService<ILoginAuditService, LoginAuditService>();
 
-            Project.SystemSettings.ServiceCollectionExtensions.RegisterSection<UserPasswordSettings>("UserPasswordSettings");
-            Project.SystemSettings.ServiceCollectionExtensions.RegisterSection<FailedAttemptsPasswordSettings>("FailedAttemptsPassword");
-            Project.SystemSettings.ServiceCollectionExtensions.RegisterSection<UserSessionSettings>("UserSessionSettings");
-            Project.SystemSettings.ServiceCollectionExtensions.RegisterSection<RegistrationSettings>("RegistrationSettings");
+            Module.SystemSettings.ServiceCollectionExtensions.RegisterSection<UserPasswordSettings>("UserPasswordSettings");
+            Module.SystemSettings.ServiceCollectionExtensions.RegisterSection<FailedAttemptsPasswordSettings>("FailedAttemptsPassword");
+            Module.SystemSettings.ServiceCollectionExtensions.RegisterSection<UserSessionSettings>("UserSessionSettings");
+            Module.SystemSettings.ServiceCollectionExtensions.RegisterSection<RegistrationSettings>("RegistrationSettings");
         }
     }
 }

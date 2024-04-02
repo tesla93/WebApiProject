@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace Services
+namespace Project.Services
 {
     public static class SystemExtension
     {

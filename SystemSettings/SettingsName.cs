@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public enum SettingsName
     {

@@ -4,9 +4,9 @@ using Core.Data;
 using Core.Filters;
 using Microsoft.EntityFrameworkCore;
 
-namespace Services.Document
+namespace Project.Services.Document
 {
-    public class DocumentService : PagedCrudService<Data.Model.Document, Project.Data.DTO.DocumentDTO>, IDocumentService
+    public class DocumentService : PagedCrudService<Data.Model.Document, Data.DTO.DocumentDTO>, IDocumentService
     {
         IDbContext context;
         private readonly IMapper _mapper;

@@ -33,7 +33,7 @@ using ClaimTypes = Core.Membership.Model.ClaimTypes;
 using SignInResult = Microsoft.AspNetCore.Identity.SignInResult;
 using Core.Crud;
 using Core.Membership.SystemSettings;
-using Project.SystemSettings;
+using Module.SystemSettings;
 using Microsoft.Extensions.Options;
 //using StaticPages;
 using Microsoft.AspNetCore.Builder;

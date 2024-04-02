@@ -3,7 +3,7 @@ using Core.Membership.Enums;
 using Core.Membership.Utils;
 using System.Linq;
 
-namespace Services
+namespace Project.Services
 {
     public class ApiAccessModelGetter : IApiAccessModelGetter
     {

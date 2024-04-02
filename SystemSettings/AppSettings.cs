@@ -1,6 +1,6 @@
 using Core.Data;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public class AppSettings : IAuditableEntity
     {

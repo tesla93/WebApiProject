@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Core.Data;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public interface ISystemSettingsContext : IDbContext
     {

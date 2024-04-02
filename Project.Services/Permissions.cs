@@ -1,4 +1,4 @@
-namespace Services
+namespace Project.Services
 {
     /// NOTE!
     /// - EITHER you add roles into the Roles class if the project is based on hardcoded roles without permissions (simple system)

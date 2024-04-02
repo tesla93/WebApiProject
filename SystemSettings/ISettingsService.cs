@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public interface ISettingsService
     {

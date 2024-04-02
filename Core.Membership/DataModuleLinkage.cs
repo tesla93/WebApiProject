@@ -8,7 +8,7 @@ using Core.Membership.Services;
 using Core.Membership.SystemSettings;
 using Core.Membership.Utils;
 using ModuleLinkage;
-using Project.SystemSettings;
+using Module.SystemSettings;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 

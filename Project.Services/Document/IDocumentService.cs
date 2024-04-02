@@ -3,7 +3,7 @@ using Project.Data.DTO;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Services.Document
+namespace Project.Services.Document
 {
     public interface IDocumentService : IPagedCrudService<DocumentDTO>
     {

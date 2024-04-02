@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Data
+namespace Project.Data
 {
     public abstract class DbEntityConfiguration<TEntity> where TEntity : class
     {

@@ -20,7 +20,7 @@
     <ProjectReference Include="..\Messages.Template\Messages.Template.csproj" />
     <ProjectReference Include="..\Messages\Messages.csproj" />
     <ProjectReference Include="..\ModuleLinkage\ModuleLinkage.csproj" />
-    <ProjectReference Include="..\SystemSettings\Project.SystemSettings.csproj" />
+    <ProjectReference Include="..\SystemSettings\Module.SystemSettings.csproj" />
   </ItemGroup>
 
 </Project>

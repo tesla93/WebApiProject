@@ -7,17 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Const\" />
-    <Folder Include="Enum\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Core.Audit\Core.Audit.csproj" />
+    <ProjectReference Include="..\AutofacExtensions\AutofacExtensions.csproj" />
     <ProjectReference Include="..\Core.Membership\Core.Membership.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
     <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
     <ProjectReference Include="..\Messages.Template\Messages.Template.csproj" />
-    <ProjectReference Include="..\SystemSettings\Module.SystemSettings.csproj" />
+    <ProjectReference Include="..\Project.Data\Project.Data.csproj" />
+    <ProjectReference Include="..\Project.Services\Project.Services.csproj" />
   </ItemGroup>
 
 </Project>

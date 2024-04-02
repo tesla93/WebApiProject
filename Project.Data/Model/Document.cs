@@ -4,7 +4,7 @@ using Project.Data.DTO;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Data.Model
+namespace Project.Data.Model
 {
     [Table("Documents")]
     public class Document : IEntity

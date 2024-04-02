@@ -3,9 +3,9 @@ using Core.Membership;
 using FileStorage;
 using Messages.Templates;
 using Microsoft.EntityFrameworkCore;
-using Project.SystemSettings;
+using Module.SystemSettings;
 
-namespace Data
+namespace Project.Data
 {
     public interface IDataContext : IDbContext,
         IFileDetailsContext,

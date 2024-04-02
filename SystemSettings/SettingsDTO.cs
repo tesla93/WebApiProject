@@ -1,4 +1,4 @@
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public class SettingsDTO
     {

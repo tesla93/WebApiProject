@@ -4,7 +4,7 @@ using Autofac;
 using Newtonsoft.Json;
 using AutofacExtensions;
 
-namespace Project.SystemSettings
+namespace Module.SystemSettings
 {
     public static class ServiceCollectionExtensions
     {
