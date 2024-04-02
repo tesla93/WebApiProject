@@ -20,7 +20,7 @@ namespace Core.Data
 
         DbSet<T> Set<T>() where T : class;
 
-        DbQuery<T> Query<T>() where T : class;
+        //DbSet<T> Query<T>() where T : class;
 
         int SaveChanges();
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
