@@ -12,11 +12,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Audit\Core.Audit.csproj" />
-    <ProjectReference Include="..\Core.Membership\Core.Membership.csproj" />
-    <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
-    <ProjectReference Include="..\Messages.Template\Messages.Template.csproj" />
+    <ProjectReference Include="..\Core.Audit\Module.Core.Audit.csproj" />
+    <ProjectReference Include="..\Core.Membership\Module.Core.Membership.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\FileStorage\Module.FileStorage.csproj" />
+    <ProjectReference Include="..\Messages.Template\Module.Messages.Template.csproj" />
     <ProjectReference Include="..\SystemSettings\Module.SystemSettings.csproj" />
   </ItemGroup>
 

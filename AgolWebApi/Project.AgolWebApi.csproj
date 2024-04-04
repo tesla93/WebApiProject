@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0969cf49-9a3c-45e2-ad3f-b4795bd7a88a</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Destructurama.Attributed" Version="4.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="8.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+    <PackageReference Include="NetEscapades.AspNetCore.SecurityHeaders" Version="0.21.0" />
+    <PackageReference Include="Serilog" Version="3.1.1" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.0" />
+    <PackageReference Include="Serilog.Sinks.Logentries" Version="4.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="8.102.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppConfiguration\Module.AppConfiguration.csproj" />
+    <ProjectReference Include="..\AutofacExtensions\Module.AutofacExtensions.csproj" />
+    <ProjectReference Include="..\BackgroundProcessing\Module.BackgroundProcessing.csproj" />
+    <ProjectReference Include="..\Core.Audit\Module.Core.Audit.csproj" />
+    <ProjectReference Include="..\Core.Crud\Module.Core.Crud.csproj" />
+    <ProjectReference Include="..\Core.Membership\Module.Core.Membership.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\Data.Processing\Module.Data.Processing.csproj" />
+    <ProjectReference Include="..\FileStorage\Module.FileStorage.csproj" />
+    <ProjectReference Include="..\JWT\Module.JWT.csproj" />
+    <ProjectReference Include="..\Messages.Api\Module.Messages.Api.csproj" />
+    <ProjectReference Include="..\Messages.Template\Module.Messages.Template.csproj" />
+    <ProjectReference Include="..\Messages\Module.Messages.csproj" />
+    <ProjectReference Include="..\Module.FileStorage.DiskSpace\Module.FileStorage.DiskSpace.csproj" />
+    <ProjectReference Include="..\ModuleLinkage\Module.ModuleLinkage.csproj" />
+    <ProjectReference Include="..\Modules.OData\Module.OData.csproj" />
+    <ProjectReference Include="..\Project.Data.SqlServer\Project.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\Project.Data\Project.Data.csproj" />
+    <ProjectReference Include="..\Project.InitialData\Project.InitialData.csproj" />
+    <ProjectReference Include="..\Project.Services\Project.Services.csproj" />
+    <ProjectReference Include="..\ReportProblem\Module.ReportProblem.csproj" />
+    <ProjectReference Include="..\SystemData\Module.SystemData.csproj" />
+    <ProjectReference Include="..\SystemSettings\Module.SystemSettings.csproj" />
+  </ItemGroup>
+
+</Project>

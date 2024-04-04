@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgolWebApi", "AgolWebApi\AgolWebApi.csproj", "{58B4C778-105F-45E2-92BB-292917189A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.AgolWebApi", "AgolWebApi\Project.AgolWebApi.csproj", "{58B4C778-105F-45E2-92BB-292917189A75}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}"
 EndProject
@@ -11,45 +11,49 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Data", "Project.Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "modules", "modules", "{689BF718-FDE2-4F57-A3B0-6760921EE996}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{9B7C1BF6-CABE-4AB1-8B43-0BE01A13BBA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core", "Core\Module.Core.csproj", "{9B7C1BF6-CABE-4AB1-8B43-0BE01A13BBA9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutofacExtensions", "AutofacExtensions\AutofacExtensions.csproj", "{0447F689-4FA2-45EC-9A94-5277EF34B847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.AutofacExtensions", "AutofacExtensions\Module.AutofacExtensions.csproj", "{0447F689-4FA2-45EC-9A94-5277EF34B847}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuleLinkage", "ModuleLinkage\ModuleLinkage.csproj", "{B0E74A19-A67E-408E-8E0B-02C5F93E7714}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.ModuleLinkage", "ModuleLinkage\Module.ModuleLinkage.csproj", "{B0E74A19-A67E-408E-8E0B-02C5F93E7714}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportProblem", "ReportProblem\ReportProblem.csproj", "{80F74668-0855-4ACA-BF39-ACDEFED4BF80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.ReportProblem", "ReportProblem\Module.ReportProblem.csproj", "{80F74668-0855-4ACA-BF39-ACDEFED4BF80}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages", "Messages\Messages.csproj", "{A19E44FC-98D6-4C97-AEBB-B56F0333BD5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Messages", "Messages\Module.Messages.csproj", "{A19E44FC-98D6-4C97-AEBB-B56F0333BD5B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemData", "SystemData\SystemData.csproj", "{53203140-D62D-4E11-AF51-BCC357389380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.SystemData", "SystemData\Module.SystemData.csproj", "{53203140-D62D-4E11-AF51-BCC357389380}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Crud", "Core.Crud\Core.Crud.csproj", "{BA51FEC1-E0AF-4642-8A1B-5A65A327E662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core.Crud", "Core.Crud\Module.Core.Crud.csproj", "{BA51FEC1-E0AF-4642-8A1B-5A65A327E662}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileStorage", "FileStorage\FileStorage.csproj", "{66529B8B-8753-47A4-96DC-E5D85802530F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.FileStorage", "FileStorage\Module.FileStorage.csproj", "{66529B8B-8753-47A4-96DC-E5D85802530F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages.Api", "Messages.Api\Messages.Api.csproj", "{226C40AC-B921-466B-A9B3-3C9C7547BF5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Messages.Api", "Messages.Api\Module.Messages.Api.csproj", "{226C40AC-B921-466B-A9B3-3C9C7547BF5D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Membership", "Core.Membership\Core.Membership.csproj", "{12B004F7-398E-4E55-A7BC-9A4B9ADD74B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core.Membership", "Core.Membership\Module.Core.Membership.csproj", "{12B004F7-398E-4E55-A7BC-9A4B9ADD74B1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.SystemSettings", "SystemSettings\Module.SystemSettings.csproj", "{34E0CDEE-8348-4533-8E9E-7816C42A652E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppConfiguration", "AppConfiguration\AppConfiguration.csproj", "{569ECC1E-F4B1-4F47-8DFB-6809D668046B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.AppConfiguration", "AppConfiguration\Module.AppConfiguration.csproj", "{569ECC1E-F4B1-4F47-8DFB-6809D668046B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messages.Template", "Messages.Template\Messages.Template.csproj", "{E94AB136-5DC8-4C02-A108-CDCB5096297D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Messages.Template", "Messages.Template\Module.Messages.Template.csproj", "{E94AB136-5DC8-4C02-A108-CDCB5096297D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWT", "JWT\JWT.csproj", "{A8297222-4DAB-46DD-BA9E-E92EF6ACA8D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.JWT", "JWT\Module.JWT.csproj", "{A8297222-4DAB-46DD-BA9E-E92EF6ACA8D8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data.Processing", "Data.Processing\Data.Processing.csproj", "{E66CF8BC-6910-4DB7-823C-B7D80A45B3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Data.Processing", "Data.Processing\Module.Data.Processing.csproj", "{E66CF8BC-6910-4DB7-823C-B7D80A45B3B9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundProcessing", "BackgroundProcessing\BackgroundProcessing.csproj", "{C2E904D8-955E-4B34-91E4-3BEA82DA9858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.BackgroundProcessing", "BackgroundProcessing\Module.BackgroundProcessing.csproj", "{C2E904D8-955E-4B34-91E4-3BEA82DA9858}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Services", "Project.Services\Project.Services.csproj", "{99399994-A62B-486A-BF03-4ABDAD81CBA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Services", "Project.Services\Project.Services.csproj", "{99399994-A62B-486A-BF03-4ABDAD81CBA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Audit", "Core.Audit\Core.Audit.csproj", "{62133149-9AE6-435B-868F-C399EE587B5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.Core.Audit", "Core.Audit\Module.Core.Audit.csproj", "{62133149-9AE6-435B-868F-C399EE587B5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Data.SqlServer", "Project.Data.SqlServer\Project.Data.SqlServer.csproj", "{AB538BE9-2387-43CB-A993-F41F1B9D1F98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Data.SqlServer", "Project.Data.SqlServer\Project.Data.SqlServer.csproj", "{AB538BE9-2387-43CB-A993-F41F1B9D1F98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.InitialData", "Project.InitialData\Project.InitialData.csproj", "{5EAC8A1B-96DA-4535-8D94-3108EBE64125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.InitialData", "Project.InitialData\Project.InitialData.csproj", "{5EAC8A1B-96DA-4535-8D94-3108EBE64125}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Module.OData", "Modules.OData\Module.OData.csproj", "{3011F960-7699-48DF-88AB-445B321C07B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.FileStorage.DiskSpace", "Module.FileStorage.DiskSpace\Module.FileStorage.DiskSpace.csproj", "{E79B0F55-A676-4719-9846-CA984A0E26AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +149,14 @@ Global
 		{5EAC8A1B-96DA-4535-8D94-3108EBE64125}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EAC8A1B-96DA-4535-8D94-3108EBE64125}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EAC8A1B-96DA-4535-8D94-3108EBE64125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3011F960-7699-48DF-88AB-445B321C07B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3011F960-7699-48DF-88AB-445B321C07B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3011F960-7699-48DF-88AB-445B321C07B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3011F960-7699-48DF-88AB-445B321C07B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E79B0F55-A676-4719-9846-CA984A0E26AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E79B0F55-A676-4719-9846-CA984A0E26AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E79B0F55-A676-4719-9846-CA984A0E26AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E79B0F55-A676-4719-9846-CA984A0E26AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +184,8 @@ Global
 		{62133149-9AE6-435B-868F-C399EE587B5E} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
 		{AB538BE9-2387-43CB-A993-F41F1B9D1F98} = {F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}
 		{5EAC8A1B-96DA-4535-8D94-3108EBE64125} = {F6B25C8D-84CD-4C8D-B6AC-6E3CEC08CB9C}
+		{3011F960-7699-48DF-88AB-445B321C07B1} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
+		{E79B0F55-A676-4719-9846-CA984A0E26AA} = {689BF718-FDE2-4F57-A3B0-6760921EE996}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {958F2600-D234-4F33-BED4-FDE90F013F0D}

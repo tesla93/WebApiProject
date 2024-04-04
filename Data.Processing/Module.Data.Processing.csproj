@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="jsreport.Binary" Version="3.13.0" />
+    <PackageReference Include="jsreport.Binary.Linux" Version="3.11.0" />
+    <PackageReference Include="jsreport.Local" Version="3.8.1" />
+    <PackageReference Include="libphonenumber-csharp" Version="8.13.33" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="NPOI" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutofacExtensions\Module.AutofacExtensions.csproj" />
+    <ProjectReference Include="..\BackgroundProcessing\Module.BackgroundProcessing.csproj" />
+    <ProjectReference Include="..\Core.Crud\Module.Core.Crud.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+  </ItemGroup>
+
+</Project>

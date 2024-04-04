@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace InitialData
+namespace Project.InitialData
 {
     public interface IDatabaseInitializerService
     {

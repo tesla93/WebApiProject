@@ -15,10 +15,10 @@ namespace ModuleLinkage
         public static void AddInvokeException(Exception ex) => InvokeExceptions.Add(ex);
         public static void AddCommonException(Exception ex) => CommonExceptions.Add(ex);
 
-        private const string moduleAssemblyNamePrefix = "";
-        private const string coreAssemblyNamePrefix = "Core";
-        private const string demoAssemblyName = "Demo";
-        private const string templateAssemblyNamePrefix = "";
+        private const string moduleAssemblyNamePrefix = "Module.";
+        private const string coreAssemblyNamePrefix = "Module.Core";
+        private const string demoAssemblyName = "Module.Demo";
+        private const string templateAssemblyNamePrefix = "Project.";
 
         public static bool IsDemoModuleAssembly(Assembly assembly) => assembly.FullName.StartsWith(demoAssemblyName);
         public static bool IsModuleAssembly(Assembly assembly) => assembly.FullName.StartsWith(moduleAssemblyNamePrefix);

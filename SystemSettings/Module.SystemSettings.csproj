@@ -13,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutofacExtensions\AutofacExtensions.csproj" />
-    <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
+    <ProjectReference Include="..\AutofacExtensions\Module.AutofacExtensions.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\FileStorage\Module.FileStorage.csproj" />
   </ItemGroup>
 
 </Project>

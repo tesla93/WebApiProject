@@ -2,7 +2,7 @@ using Autofac;
 using Microsoft.Extensions.DependencyInjection;
 using AutofacExtensions;
 
-namespace InitialData
+namespace Project.InitialData
 {
     public static class ServiceCollectionExtensions
     {

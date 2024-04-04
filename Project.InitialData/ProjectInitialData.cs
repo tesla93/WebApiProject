@@ -1,7 +1,7 @@
 using Core.Data;
 using System.Threading.Tasks;
 
-namespace InitialData
+namespace Project.InitialData
 {
     internal static class ProjectInitialData
     {

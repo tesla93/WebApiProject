@@ -13,7 +13,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 
-namespace InitialData
+namespace Project.InitialData
 {
     public class DatabaseInitializerService : IDatabaseInitializerService
     {

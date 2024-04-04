@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using Project.Data;
 
-namespace Data
+namespace Project.Data.SqlServer
 {
     public static class ServiceCollectionExtensions
     {

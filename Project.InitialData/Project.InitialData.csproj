@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AutofacExtensions\AutofacExtensions.csproj" />
-    <ProjectReference Include="..\Core.Membership\Core.Membership.csproj" />
-    <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\FileStorage\FileStorage.csproj" />
-    <ProjectReference Include="..\Messages.Template\Messages.Template.csproj" />
+    <ProjectReference Include="..\AutofacExtensions\Module.AutofacExtensions.csproj" />
+    <ProjectReference Include="..\Core.Membership\Module.Core.Membership.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\FileStorage\Module.FileStorage.csproj" />
+    <ProjectReference Include="..\Messages.Template\Module.Messages.Template.csproj" />
     <ProjectReference Include="..\Project.Data\Project.Data.csproj" />
     <ProjectReference Include="..\Project.Services\Project.Services.csproj" />
   </ItemGroup>

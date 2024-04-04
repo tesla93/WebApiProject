@@ -3,17 +3,18 @@ using AspNetCoreRateLimit;
 using Autofac;
 using AutofacExtensions;
 using Core;
+using Module.FileStorage.DiskSpace;
 using Core.Audit;
 using Core.Membership;
 using Core.Membership.Model;
 using DataProcessing;
 using FileStorage;
-using InitialData;
+using Project.InitialData;
 using Module.SystemSettings;
 using Project.Services;
 using SystemData;
 
-namespace Server.Extensions
+namespace Project.Server.Extensions
 {
     public static partial class ServiceCollectionExtensions
     {
@@ -63,25 +64,9 @@ namespace Server.Extensions
 
         public static IServiceCollection ConfigureFileStorage(this IServiceCollection services, IConfiguration Configuration, IWebHostEnvironment environment)
         {
-            var storageProviderName = Configuration.GetSection("StorageSettings")?.GetValue<string>("ProviderName");
-            //switch (storageProviderName)
-            //{
-            //    case "AWS": services.ConfigureAws(Configuration); break;
-            //    case "Azure": services.ConfigureAzure(Configuration); break;
-            //    case "DiskSpace": services.ConfigureDiskSpaceStorageProvider(); break;
-            //    default:
-            //        // If specified provider not supported.
-            //        if (!string.IsNullOrWhiteSpace(storageProviderName))
-            //            throw new ConfigurationException($"The '{storageProviderName}' file storage provider is not supported.");
 
-            //        // The default provider if nothing specified.
-            //        if (environment.IsDevelopment())
-            //            services.ConfigureDiskSpaceStorageProvider();
-            //        else
-            //            services.ConfigureAws(Configuration);
-
-            //        break;
-            //}
+            services.ConfigureDiskSpaceStorageProvider();
+            
 
             // In case if the defined storage provider doesn't implement IAppConfigurationService
             // (like DiskStorage for local development) then we set a fake implementation in order to have

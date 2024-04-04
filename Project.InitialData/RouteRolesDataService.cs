@@ -6,7 +6,7 @@ using Core.Membership.Services;
 using Microsoft.Extensions.DependencyInjection;
 using ModuleLinkage;
 
-namespace InitialData
+namespace Project.InitialData
 {
     public static class RouteRolesDataService
     {

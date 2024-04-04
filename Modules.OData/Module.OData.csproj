@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Destructurama.Attributed" Version="4.0.0" />
+    <ProjectReference Include="..\AutofacExtensions\Module.AutofacExtensions.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\SystemSettings\Module.SystemSettings.csproj" />
+  </ItemGroup>
+
+</Project>

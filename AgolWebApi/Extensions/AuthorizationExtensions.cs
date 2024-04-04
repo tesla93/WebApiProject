@@ -2,7 +2,7 @@ using Core.Membership.Utils;
 using Project.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Server.Extensions
+namespace Project.Server.Extensions
 {
     public static class AuthorizationExtensions
     {

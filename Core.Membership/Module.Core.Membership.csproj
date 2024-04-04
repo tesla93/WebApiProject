@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Destructurama.Attributed" Version="4.0.0" />
+    <PackageReference Include="U2F.Core" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutofacExtensions\Module.AutofacExtensions.csproj" />
+    <ProjectReference Include="..\Core.Crud\Module.Core.Crud.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\FileStorage\Module.FileStorage.csproj" />
+    <ProjectReference Include="..\Messages.Template\Module.Messages.Template.csproj" />
+    <ProjectReference Include="..\Messages\Module.Messages.csproj" />
+    <ProjectReference Include="..\ModuleLinkage\Module.ModuleLinkage.csproj" />
+    <ProjectReference Include="..\SystemSettings\Module.SystemSettings.csproj" />
+  </ItemGroup>
+
+</Project>

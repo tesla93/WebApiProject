@@ -14,10 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Audit\Core.Audit.csproj" />
-    <ProjectReference Include="..\Core.Membership\Core.Membership.csproj" />
-    <ProjectReference Include="..\Core\Core.csproj" />
-    <ProjectReference Include="..\Data.Processing\Data.Processing.csproj" />
+    <ProjectReference Include="..\Core.Audit\Module.Core.Audit.csproj" />
+    <ProjectReference Include="..\Core.Membership\Module.Core.Membership.csproj" />
+    <ProjectReference Include="..\Core\Module.Core.csproj" />
+    <ProjectReference Include="..\Data.Processing\Module.Data.Processing.csproj" />
     <ProjectReference Include="..\Project.Data\Project.Data.csproj" />
   </ItemGroup>
 
