@@ -7,13 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Const\" />
-    <Folder Include="Enum\" />
-    <Folder Include="DTO\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Core.Audit\Core.Audit.csproj" />
+    <ProjectReference Include="..\Core.Crud\Core.Crud.csproj" />
     <ProjectReference Include="..\Core.Membership\Core.Membership.csproj" />
     <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
